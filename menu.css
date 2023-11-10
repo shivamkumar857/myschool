@@ -1,0 +1,22 @@
+.menu{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: aqua;
+}
+.menu li{
+    width: 150px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+    list-style: none;
+    /* text-align: right; */
+
+
+}
+div{
+    text-align: center;
+}
+ul{
+    align-items: right;
+}

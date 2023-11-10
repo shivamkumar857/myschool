@@ -1,0 +1,79 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+
+
+.mymenu{
+    position:absolute;
+    background-color:aqua;
+    width: 100%;  
+    /* height: 2em; */  /*due to position absolute*/
+    text-align: center;
+    /* margin left: ;: 0px; */
+}
+.mymenu li{
+    list-style: none;
+    width: 150px;
+    height: 100px;
+    background-color:aqua;
+    /* margin-left: 20px; */
+    /* text-align: center; */ /* due to .mymenu mai text-align is center*/
+    line-height: 100px;
+    float: left;
+    
+
+
+}
+.mymenu li:hover{
+    background-color: brown;
+
+}
+.mymenu li a{
+    color: red;
+    display: block;
+
+    text-decoration: none;
+
+}
+.mymenu li a:hover{
+    color: chartreuse;
+    /* width: 200px;
+    height: 100px; */
+}
+.logo{
+    width: 100px;
+}
+.logo_li:hover{
+    background-color: aqua !important;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+        
+
+.mymenu ul li{
+    margin: 0px;
+    padding: 0px;
+}
+.mymenu ul li:hover{
+    color:blue;
+}
+.menu1 ul {
+    display: none;
+}
+.menu1 li:hover ul{
+    display: block;
+}
+/* .menu1 ul a :hover{
+    color: black;
+} */
+/* banner */
+/* #banner{
+    width: 100%;
+}
+#banner img{
+    width: 80%;
+    margin-top: 20px;
+} */

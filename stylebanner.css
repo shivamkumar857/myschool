@@ -1,0 +1,62 @@
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+#whychooseus{
+    width: 100%;
+    text-align: center;
+}
+#whychooseus h1{
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px solid brown;
+    width: 30%;
+    margin: 0 auto;
+    border-bottom-width: 5px;
+    /* float:left; */
+}
+.div_section1{
+    width: 20%;
+    height: 300px;
+    border: 0px solid  gray;
+    margin: 10px;
+    float:left;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 10px auto;
+    line-height: 100px;
+    font-size: 50px;
+    background-color: brown;
+    color: azure;
+    border-radius: 100%;
+}
+.icon:hover{
+    font-size: 40px;
+    transition-duration:0.5s ;
+}
+.schooldetails{
+    width: 100%;
+    text-align: center;
+
+
+}
+.schooldetails h1{
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    color: rgb(12, 156, 213);
+    width: 400px;
+    margin: auto;
+}
+.div_section2{
+    width: 30%;
+    height:100px;
+    border: 1px  solid gray;
+    margin: 10px;
+    float:left;
+}
